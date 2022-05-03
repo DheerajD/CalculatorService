@@ -1,6 +1,9 @@
 package service;
 
 import exception.InvalidInputException;
+
+//import java.math.BigInteger;
+//import java.math.BigDecimal;
 import java.util.Stack;
 
 //Referred link: https://algorithms.tutorialhorizon.com/evaluation-of-infix-expressions/
@@ -63,4 +66,12 @@ public class EvaluatorService {
         }
         return number.pop();
     }
+
+    //=======For bignumbers work with bigIntegers.=======
+    //BigInteger reallyBig = new BigInteger("1234567890123456890");
+    //BigInteger notSoBig = new BigInteger("2743561234");
+
+    //========Similarly bigDecimal======
+    //BigDecimal bdFromDouble = new BigDecimal(0.1d);
+
 }
