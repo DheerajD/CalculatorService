@@ -3,7 +3,8 @@ package service;
 import exception.InvalidInputException;
 import java.util.Stack;
 
-//This handles
+//Referred link: https://algorithms.tutorialhorizon.com/evaluation-of-infix-expressions/
+//The below code handles:
 // 1. Spaces in expression
 // 2. alphabets or any other symbol not allowed(only numbers and DMAS operations supported.)
 
